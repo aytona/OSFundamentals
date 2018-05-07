@@ -5,9 +5,9 @@ echo "Enter your guess: \c"
 read yourguess
 while [ "$secretcode" != "$yourguess" ]
 do
-echo "Try again!"
-echo "Enter your guess: \c"
-read yourguess
+	echo "Try again!"
+	echo "Enter your guess: \c"
+	read yourguess
 done
 echo "Correct!"
 exit 0
